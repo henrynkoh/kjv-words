@@ -48,7 +48,7 @@ const FEATURES = [
 const GITHUB_URL =
   typeof process !== "undefined" && process.env?.NEXT_PUBLIC_GITHUB_URL
     ? process.env.NEXT_PUBLIC_GITHUB_URL
-    : "https://github.com";
+    : "https://github.com/henrynkoh/kjv-words";
 
 interface Props {
   topics: TopicCategory[];
